@@ -6,9 +6,9 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: test.rcp.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.ui.views;bundle-version="3.6.100",
- org.eclipse.ui.navigator;bundle-version="3.5.200",
- org.eclipse.ui.navigator.resources;bundle-version="3.4.400",
- org.eclipse.ui.ide;bundle-version="3.8.1"
+ org.eclipse.ui.views,
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.navigator.resources,
+ org.eclipse.ui.ide
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
