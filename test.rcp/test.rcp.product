@@ -7,10 +7,23 @@
    </configIni>
 
    <launcherArgs>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+      <programArgs>-consoleLog -clean -deletePersistedState
+      </programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
    </launcherArgs>
 
    <windowImages/>
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
 
    <plugins>
       <plugin id="com.ibm.icu"/>
@@ -73,9 +86,14 @@
    </plugins>
 
    <features>
-      <feature id="org.eclipse.e4.rcp" version="1.1.0.v20120521-2329-8yFTIGIbGGduEZ6-7-jLx41nXj"/>
+      <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
+      <feature id="test.rcp.feature"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.platform"/>
+      <feature id="org.eclipse.ecf.core.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" version="3.9.0.v20140827-1444"/>
    </features>
 
 
