@@ -17,6 +17,7 @@
               <tags>newtablook</tags>
               <tags>org.eclipse.e4.secondaryDataStack</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_soNH8NS2EeGBn6dQ9VPexA" elementId="org.eclipse.ui.views.PropertySheet" ref="_WqRGcNS1EeGBn6dQ9VPexA"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_1vvxEJtyEeS-YKJKuBxeuQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_OtLfAJtzEeS-YKJKuBxeuQ"/>
             </children>
           </children>
         </children>
@@ -51,6 +52,7 @@
       </menus>
       <toolbar xmi:id="_4UXAUdSmEeG-a6zBTyJ-wg" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_OtLfAJtzEeS-YKJKuBxeuQ" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console"/>
     <trimBars xmi:id="_VOV6ANTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.main.toolbar"/>
     <trimBars xmi:id="_VP1HwNTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.trim.status" side="Bottom">
       <children xsi:type="menu:ToolControl" xmi:id="_VP1u0NTAEeGTY-uOtVc6Mg" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
